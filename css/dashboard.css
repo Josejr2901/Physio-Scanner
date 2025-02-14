@@ -1,0 +1,100 @@
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+header {
+    background-color: #a7bdc3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 16px;
+}
+
+
+.sign-in {
+    background-color: #915656;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sign-in:hover {
+    background-color: #7a4747;
+}
+
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.graphs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.graph-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    width: 95%; 
+    border-radius: 8px;
+    height: 150px; 
+}
+
+canvas {
+    height: 150px !important; 
+    flex-grow: 1; 
+    width: 85% !important; 
+}
+
+
+.value-box {
+    width: 100px;
+    text-align: right;
+    color: white;
+    font-size: 22px;
+    margin-left: 10px; 
+}
+
+.value-box h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.value-box span {
+    font-weight: bold;
+    font-size: 30px;
+}
